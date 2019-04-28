@@ -1,0 +1,243 @@
+@import url('fonts/Futurice-Regular/Futurice-Regular.css');
+@import url('fonts/Futurice-Bold/Futurice-Bold.css');
+@import url('fonts/Futurice-Monospaced/Futurice-Monospaced.css');
+
+:root {
+  font-size: 16px;
+}
+html,
+body {
+  font-family: 'Futurice-Monospaced', sans-serif;
+}
+
+/** General Styles **/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Futurice-Bold', sans-serif;
+}
+
+.clearer {
+  display: block;
+  width: 100%;
+  clear: both;
+}
+
+.spacer {
+  height: 50px;
+  width: 100%;
+  display: block;
+  clear: both;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.primary-button {
+  font-family: 'Futurice', sans-serif;
+  text-transform: uppercase;
+  font-size: 25px;
+  letter-spacing: 0.5px;
+  padding: 20px 30px;
+  line-height: 1;
+  text-align: center;
+  display: block;
+  border-radius: 0 !important;
+  min-width: 150px;
+  background-color: #211b58;
+  border: 2px solid #211b58;
+  color: #ffffff;
+  margin: 60px 0;
+  transition: all 0.2s;
+}
+
+.primary-button:hover {
+  cursor: pointer;
+  border-color: #009f77;
+  color: #009f77;
+  background: #ffffff;
+  color: #009f77;
+}
+
+.button-position-center {
+  margin: 0 auto;
+}
+
+/** Header **/
+
+h1 {
+  font-size: 56px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.header-image {
+  background: url('../assets/header-image.png') 100%;
+  height: 840px;
+}
+
+.futulon-link {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.futulon-link img {
+  width: 70%;
+  max-width: 548px;
+  height: auto;
+}
+
+.futulon-link-small {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.futulon-link-small img {
+  width: 70%;
+  max-width: 274px;
+  height: auto;
+}
+
+.topic {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.side-topic {
+  display: block;
+  transform: rotate(-90deg);
+  font-size: 3.5rem;
+}
+
+.bottom-topic {
+  text-align: center;
+}
+
+.side-topic span,
+.bottom-topic span span {
+  color: #009f77;
+}
+
+.secondary-header-grid {
+  margin-top: -80px;
+}
+
+.scroll-down {
+  background: url('../assets/arrow-down.svg') 100%;
+  width: 29px;
+  height: 41px;
+  display: block;
+  margin: 0 auto;
+  text-indent: -99999px !important;
+}
+
+/** Page Content **/
+
+p {
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.4px;
+  color: #200a74;
+}
+
+p.secondary {
+  color: #999999;
+}
+
+.page-content {
+  max-width: 960px;
+  margin: 90px auto;
+}
+
+.page-content h2 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 48px;
+  letter-spacing: 1px;
+  color: #009f77;
+}
+
+.page-content ul {
+  list-style-position: inside;
+}
+
+/** Homepage **/
+
+.callout.primary {
+  background-color: #211b58;
+}
+
+.cover-image {
+  background: url('../assets/space-bg.png') 30%;
+  height: 400px;
+}
+
+.parallax-background {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/** Footer **/
+
+footer {
+  width: 100%;
+  margin-top: 150px;
+  background-color: #fafafa;
+  padding: 90px 0;
+}
+#futurice-link img {
+  width: 120px;
+  height: 24.9px;
+  margin-bottom: 35px;
+}
+
+.about-futucamp {
+  color: #000000;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.4px;
+}
+
+.website-link {
+  color: #009f77;
+  text-decoration: none;
+  padding: 35px;
+  font-size: 24px;
+}
+
+.website-link:hover {
+  color: #211b58;
+}
+
+/** Mobile Queries **/
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+}
+
+/* Large and up */
+@media screen and (min-width: 64em) {
+}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {
+}
