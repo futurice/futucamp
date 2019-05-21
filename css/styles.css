@@ -189,6 +189,18 @@ p.secondary {
   background-size: cover;
 }
 
+.futulon-selfie {
+  width: 100%;
+  height: auto;
+  max-height: 530px;
+}
+
+.futulon-phone {
+  width: 100%;
+  height: auto;
+  max-height: 600px;
+}
+
 /** Footer **/
 
 footer {
@@ -219,18 +231,6 @@ footer {
 
 .website-link:hover {
   color: #211b58;
-}
-
-.futulon-selfie {
-  width: 100%;
-  height: auto;
-  max-height: 530px;
-}
-
-.futulon-phone {
-  width: 100%;
-  height: auto;
-  max-height: 600px;
 }
 
 /** Mobile Queries **/
