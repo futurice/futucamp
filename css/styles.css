@@ -80,7 +80,7 @@ h1 {
 }
 
 .header-image {
-  background: url('../assets/header-image.png') 100%;
+  background: url('../assets/the_rise_of_futulon_background.svg') 100%;
   height: 840px;
 }
 
@@ -178,7 +178,7 @@ p.secondary {
 }
 
 .cover-image {
-  background: url('../assets/space-bg.png') 30%;
+  background: url('../assets/space_background.svg') 30%;
   height: 400px;
 }
 
@@ -221,6 +221,18 @@ footer {
   color: #211b58;
 }
 
+.futulon-selfie {
+  width: 100%;
+  height: auto;
+  max-height: 530px;
+}
+
+.futulon-phone {
+  width: 100%;
+  height: auto;
+  max-height: 600px;
+}
+
 /** Mobile Queries **/
 /* Small only */
 @media screen and (max-width: 39.9375em) {
@@ -228,6 +240,9 @@ footer {
 
 /* Medium and up */
 @media screen and (min-width: 40em) {
+  .futulon-phone {
+    padding-top: 60px;
+  }
 }
 
 /* Medium only */
