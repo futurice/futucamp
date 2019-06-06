@@ -80,7 +80,8 @@ h1 {
 }
 
 .header-image {
-  background: url('../assets/the_rise_of_futulon_background.svg') 100%;
+  background: url('../assets/the_rise_of_futulon_background.svg') no-repeat
+    center center;
   height: 840px;
 }
 
@@ -236,6 +237,37 @@ footer {
 /** Mobile Queries **/
 /* Small only */
 @media screen and (max-width: 39.9375em) {
+  .header-image {
+    height: 600px;
+    background-size: auto 600px;
+    background-position: 60% top;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin-top: 50px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .futulon-selfie {
+    display: none;
+  }
+
+  .cover-image {
+    display: none;
+  }
+
+  .primary-button {
+    width: 90%;
+    margin: 60px auto;
+  }
+
+  footer {
+    margin-top: 50px;
+  }
 }
 
 /* Medium and up */
